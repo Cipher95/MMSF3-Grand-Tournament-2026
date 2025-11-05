@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "StarForce3Art.webp",
             content: `
                 <p>Welcome to the official web portal for the Mega Man Star Force 3 Grand Tournament! The world's best Wave-Changers will compete to prove their skill, strategy, and BrotherBand bonds.</p>
-                <p>This event celebrates the fast-paced, card-based combat of MMSF3, from masterful folder construction to the tactical mastery of the Noise Change system. Will a Black Ace specialist or a Red Joker powerhouse take the ultimate prize?</p>
-                <h3>Hosted By the Satella Police</h3>
-                <p>The MMSF3 Grand Tournament is proudly sanctioned and hosted by the Satella Police's Competitive Gaming Division. We are dedicated to ensuring a fair, high-energy event for all participants and viewers, upholding the highest standards of competitive integrity.</p>
+                <p>This event celebrates the fast-paced, card-based combat of MMSF3, from masterful folder construction to the tactical mastery of the Noise Change system. Will a Black Ace specialist or a Red Joker powerhouse take the title of Satellite Administrator?</p>
+                <h3>Hosted By Cipher</h3>
+                <p>The MMSF3 Grand Tournament is proudly sanctioned and hosted by the Cipher's Competitive Gaming Division. We are dedicated to ensuring a fair, high-energy event for all participants and viewers, upholding the highest standards of competitive integrity.</p>
             `
         },
         schedule: {
@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "https://static.wikia.nocookie.net/megaman/images/c/c8/MMSR3_Battle_Screen.png",
             content: `
                 <ul>
-                    <li><b>Day 1: WAZA Qualifiers & Folder Checks</b> - The tournament begins with the final online qualifying rounds. All main event competitors must check in and submit their Folders for official inspection.</li>
+                    <li><b>Day 1: WAZA Qualifiers & Folder Checks</b> - The tournament begins with the final online qualifying rounds.</li>
                     <li><b>Day 2: Group Stages</b> - The top players are seeded into groups to battle in a round-robin format. Mastering Noise Change and counter-play will be key to advancing.</li>
                     <li><b>Day 3: Top 16 Knockout Stage</b> - The single-elimination bracket begins. Expect shocking Finalized forms and devastating Giga Card plays as the field narrows.</li>
-                    <li><b>Day 4: Semifinals & Grand Finals</b> - The final four players clash for a spot in the Grand Finals. The last two titans will then battle for the ultimate prize and the title of Satellite Administrator.</li>
+                    <li><b>Day 4: Semifinals & Grand Finals</b> - The final four players clash for a spot in the Grand Finals. The last two titans will then battle for the title of Satellite Administrator.</li>
                 </ul>
             `
         },
@@ -28,17 +28,17 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "Live Brackets",
             image: "https://www.printyourbrackets.com/images/16-team-seeded-tournament-bracket.png",
             content: `
-                <p>Follow every Wave Battle live! The tournament brackets are updated in real-time as matches conclude. See who is advancing and what incredible matchups are coming up next.</p>
-                <p>All matches from the Quarterfinal stage onward will be streamed live from WAZA HQ. Don't miss a second of the action!</p>
+                <p>Follow every Wave Battle video! The tournament brackets are updated in real-time as matches conclude. See who is advancing and what incredible matchups are coming up next.</p>
+                <p>All matches from the Quarterfinal stage onward will be recorded from the community. Don't miss a second of the action!</p>
             `
         },
         ranking: {
             title: "Group Stage Standings",
             image: "https://static.wikia.nocookie.net/megaman/images/9/9c/MMSF3_Card_Selection.PNG",
             content: `
-                <p>In the Group Stage, players battle everyone in their group. Standings are determined by match wins and HP differential. The top two from each group advance to the Knockout Stage.</p>
+                <p>In the Group Stage, players battle everyone in their group. Standings are determined by match wins. The top two from each group advance to the Knockout Stage.</p>
                 <table class="league-table">
-                    <caption>Group Omega Standings</caption>
+                    <caption>Group Alpha Standings</caption>
                     <thead>
                         <tr>
                             <th>Rank</th>
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <th>MP</th>
                             <th>W</th>
                             <th>L</th>
-                            <th>+/- HP</th>
+                            <th>+/-</th>
                             <th>Pts</th>
                         </tr>
                     </thead>
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <td>3</td>
                             <td>3</td>
                             <td>0</td>
-                            <td>+1850</td>
+                            <td>6</td>
                             <td>3</td>
                         </tr>
                         <tr>
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <td>3</td>
                             <td>2</td>
                             <td>1</td>
-                            <td>+700</td>
+                            <td>4</td>
                             <td>2</td>
                         </tr>
                         <tr>
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <td>3</td>
                             <td>1</td>
                             <td>2</td>
-                            <td>-1150</td>
+                            <td>2</td>
                             <td>1</td>
                         </tr>
                         <tr>
@@ -84,19 +84,202 @@ document.addEventListener('DOMContentLoaded', () => {
                             <td>3</td>
                             <td>0</td>
                             <td>3</td>
-                            <td>-1400</td>
+                            <td>1</td>
                             <td>0</td>
                         </tr>
                     </tbody>
                 </table>
-                <h3>Group Omega Match Results</h3>
+                <h3>Group Alpha Match Results</h3>
                 <ul class="match-results">
-                    <li>Geo S. <strong>WIN</strong> (1200 HP) vs. Sonia S. (0 HP)</li>
-                    <li>Bud B. <strong>WIN</strong> (800 HP) vs. Solo (0 HP)</li>
-                    <li>Geo S. <strong>WIN</strong> (900 HP) vs. Bud B. (0 HP)</li>
-                    <li>Sonia S. <strong>WIN</strong> (1000 HP) vs. Solo (0 HP)</li>
-                    <li>Geo S. <strong>WIN</strong> (750 HP) vs. Solo (0 HP)</li>
-                    <li>Sonia S. <strong>WIN</strong> (500 HP) vs. Bud B. (0 HP)</li>
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Sonia S. 0</li>
+                    <li>Bud B. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Bud B. 1</li>
+                    <li>Sonia S. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Sonia S. <strong>WIN</strong> 2 vs. Bud B. 0</li>
+                </ul>
+                <table class="league-table">
+                    <caption>Group Bravo Standings</caption>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>MP</th>
+                            <th>W</th>
+                            <th>L</th>
+                            <th>+/-</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Geo S.</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>6</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sonia S.</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Bud B.</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Solo</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Group Bravo Match Results</h3>
+                <ul class="match-results">
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Sonia S. 0</li>
+                    <li>Bud B. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Bud B. 1</li>
+                    <li>Sonia S. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Sonia S. <strong>WIN</strong> 2 vs. Bud B. 0</li>
+                </ul>
+                <table class="league-table">
+                    <caption>Group Cipher Standings</caption>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>MP</th>
+                            <th>W</th>
+                            <th>L</th>
+                            <th>+/-</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Geo S.</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>6</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sonia S.</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Bud B.</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Solo</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Group Cipher Match Results</h3>
+                <ul class="match-results">
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Sonia S. 0</li>
+                    <li>Bud B. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Bud B. 1</li>
+                    <li>Sonia S. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Sonia S. <strong>WIN</strong> 2 vs. Bud B. 0</li>
+                </ul>
+                <table class="league-table">
+                    <caption>Group Delta Standings</caption>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>MP</th>
+                            <th>W</th>
+                            <th>L</th>
+                            <th>+/-</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Geo S.</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>6</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sonia S.</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Bud B.</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Solo</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Group Delta Match Results</h3>
+                <ul class="match-results">
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Sonia S. 0</li>
+                    <li>Bud B. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Bud B. 1</li>
+                    <li>Sonia S. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Geo S. <strong>WIN</strong> 2 vs. Solo 0</li>
+                    <li>Sonia S. <strong>WIN</strong> 2 vs. Bud B. 0</li>
                 </ul>
             `
         },
@@ -104,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "Knockout Round Results",
             image: "https://megaman.fandom.com/wiki/Mega_Man_Star_Force_3?file=MMSF3_Mega_Man_Black_Ace.png",
             content: `
-                <p>The main event is a single-elimination knockout bracket. The bracket below shows the final results from the Quarterfinals to the Grand Final, with remaining HP shown for the winner.</p>
+                <p>The main event is a single-elimination knockout bracket. The bracket below shows the final results from the Quarterfinals to the Grand Final.</p>
                 <div class="bracket-container">
                     <div class="bracket">
                         <div class="round">
@@ -180,13 +363,14 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "Official Tournament Rules",
             image: "https://static.wikia.nocookie.net/megaman/images/1/18/Acid_Ace.png",
             content: `
-                <p>To ensure competitive integrity, all participants must adhere to the official rules established by the Satella Police.</p>
+                <p>To ensure competitive integrity, all participants must adhere to the official rules established by Cipher.</p>
                 <ul>
-                    <li><b>Game Version:</b> All players must use an unmodified version of Mega Man Star Force 3: Black Ace or Red Joker.</li>
-                    <li><b>Folder Rules:</b> Each player's Folder must contain exactly 30 Battle Cards. Only one Giga Card is permitted per folder. Illegal data/cards are strictly forbidden.</li>
+                    <li><b>Game Version:</b> All players must use an unmodified or modified version of Mega Man Star Force 3: Black Ace or Red Joker.</li>
+                    <li><b>Folder Rules:</b> Each player's Folder must contain exactly 30 Battle Cards. Only one Giga Card is permitted per folder.</li>
                     <li><b>Noise Forms:</b> All Noise Change forms are permitted. Use of Finalized forms (Black Ace / Red Joker) is allowed only if the Noise gauge is filled to 200% through normal gameplay.</li>
-                    <li><b>BrotherBand:</b> Players must form a real-life BrotherBand connection for their match. Using pre-existing in-game Brothers is not allowed.</li>
-                    <li><b>Disputes:</b> In case of a disconnect, a WAZA official will review match data to determine the outcome. All admin decisions are final.</li>
+                    <li><b>BrotherBand:</b> Players must form a real-life BrotherBand connection or fake BrotherBand for their match.</li>
+                    <li><b>Disputes:</b> In case of a disconnect, Cipher will review match data to determine the outcome. All admin decisions are final.</li>
+                    <li><b>Disputes:</b>
                 </ul>
             `
         }
