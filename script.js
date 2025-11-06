@@ -18,10 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "https://pm1.aminoapps.com/8389/351a4299a369e89a7ba8f64418c9e578af6bab05r1-755-1068v2_hq.jpg",
             content: `
                 <ul>
-                    <li><b>Day 1: WAZA Qualifiers & Folder Checks</b> - The tournament begins with the final online qualifying rounds.</li>
-                    <li><b>Day 2: Group Stages</b> - The top players are seeded into groups to battle in a round-robin format. Mastering Noise Change and counter-play will be key to advancing.</li>
-                    <li><b>Day 3: Top 16 Knockout Stage</b> - The single-elimination bracket begins. Expect shocking Finalized forms and devastating Giga Card plays as the field narrows.</li>
-                    <li><b>Day 4: Semifinals & Grand Finals</b> - The final four players clash for a spot in the Grand Finals. The last two titans will then battle for the title of Satellite Administrator.</li>
+                    <li><b>Week 1: Registration</b> - Player registration and folder submission begins.</li>
+                <li><b>Week 2: Group Stages</b> - The top players are seeded into groups to battle in a round-robin format. Mastering Noise Change and counter-play will be key to advancing.</li>
+                <li><b>Week 3: Top 16 Knockout Stage</b> - The single-elimination bracket begins. Expect shocking Finalized forms and devastating Giga Card plays as the field narrows.</li>
+                <li><b>Week 4: Semifinals & Grand Finals</b> - The final four players clash for a spot in the Grand Finals. The last two titans will then battle for the title of Satellite Administrator.</li>
                 </ul>
             `
         },
@@ -398,10 +398,10 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "https://pm1.aminoapps.com/8389/351a4299a369e89a7ba8f64418c9e578af6bab05r1-755-1068v2_hq.jpg",
             content: `
                 <ul>
-                    <li><b>1日目：WAZA予選＆フォルダチェック</b> - トーナメントは最終オンライン予選ラウンドで始まります。</li>
-                    <li><b>2日目：グループステージ</b> - 上位プレイヤーがグループに分けられ、総当たり戦で戦います。ノイズチェンジとカウンタープレイをマスターすることが、勝ち進むための鍵となります。</li>
-                    <li><b>3日目：トップ16ノックアウトステージ</b> - シングルエリミネーションブラケットが始まります。フィールドが狭まるにつれて、驚きのファイナライズ形態や破壊的なギガカードプレイが期待されます。</li>
-                    <li><b>4日目：準決勝＆グランドファイナル</b> - 最後の4人のプレイヤーがグランドファイナルへの出場権をかけて激突します。その後、最後の2人の巨人がサテライトアドミニストレーターの称号をかけて戦います。</li>
+                    <li><b>1週目：登録</b> - プレイヤーの登録とフォルダの提出が開始されます。</li>
+                <li><b>2週目：グループステージ</b> - 上位プレイヤーがグループに分けられ、総当たり戦で戦います。ノイズチェンジとカウンタープレイをマスターすることが、勝ち進むための鍵となります。</li>
+                <li><b>3週目：トップ16ノックアウトステージ</b> - シングルエリミネーションブラケットが始まります。フィールドが狭まるにつれて、驚きのファイナライズ形態や破壊的なギガカードプレイが期待されます。</li>
+                <li><b>4週目：準決勝＆グランドファイナル</b> - 最後の4人のプレイヤーがグランドファイナルへの出場権をかけて激突します。その後、最後の2人の巨人がサテライトアドミニストレーターの称号をかけて戦います。</li>
                 </ul>
             `
         },
@@ -949,5 +949,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
 
 
