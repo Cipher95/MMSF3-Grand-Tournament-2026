@@ -12,25 +12,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 { rank: 0, name: 'ᴰᵃʳᵏSaidh', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
             ],
             matches: [
-                { p1: 'Cipher', s1: 0, p2: 'libero', s2: 0 },
+               /* { p1: 'Cipher', s1: 0, p2: 'libero', s2: 0 },
                 { p1: 'Thiago', s1: 0, p2: 'ᴰᵃʳᵏSaidh', s2: 0 },
                 { p1: 'Cipher', s1: 0, p2: 'Thiago', s2: 0 },
                 { p1: 'libero', s1: 0, p2: 'ᴰᵃʳᵏSaidh', s2: 0 },
                 { p1: 'Cipher', s1: 0, p2: 'ᴰᵃʳᵏSaidh', s2: 0 },
-                { p1: 'libero', s1: 0, p2: 'Thiago', s2: 0 }
+                { p1: 'libero', s1: 0, p2: 'Thiago', s2: 0 } */
             ]
         }, {
             name: "Group Bravo Standings",
             players: [
-                { rank: 1, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
-                { rank: 2, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
-                { rank: 3, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
-                { rank: 4, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 }
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 }
             ],
             matches: [
+               /* { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 },
                 { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 },
-                { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 },
-                { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 }
+                { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 } */
             ]
         }],
         knockout: {
@@ -78,25 +78,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 { rank: 0, name: 'ᴰᵃʳᵏSaidh', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
             ],
             matches: [
-                { p1: 'Cipher', s1: 0, p2: 'libero', s2: 0 },
+               /* { p1: 'Cipher', s1: 0, p2: 'libero', s2: 0 },
                 { p1: 'Thiago', s1: 0, p2: 'ᴰᵃʳᵏSaidh', s2: 0 },
                 { p1: 'Cipher', s1: 0, p2: 'Thiago', s2: 0 },
                 { p1: 'libero', s1: 0, p2: 'ᴰᵃʳᵏSaidh', s2: 0 },
                 { p1: 'Cipher', s1: 0, p2: 'ᴰᵃʳᵏSaidh', s2: 0 },
-                { p1: 'libero', s1: 0, p2: 'Thiago', s2: 0 }
+                { p1: 'libero', s1: 0, p2: 'Thiago', s2: 0 } */
             ]
         }, {
             name: "グループ・ブラボー 順位表",
             players: [
-                { rank: 1, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
-                { rank: 2, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
-                { rank: 3, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
-                { rank: 4, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 }
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 },
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0 }
             ],
             matches: [
+               /* { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 },
                 { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 },
-                { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 },
-                { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 }
+                { p1: '-', s1: 0, p2: '-', s2: 0 }, { p1: '-', s1: 0, p2: '-', s2: 0 } */
             ]
         }],
         knockout: {
