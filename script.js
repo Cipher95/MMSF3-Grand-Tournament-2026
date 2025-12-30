@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
         groups: [{
             name: "Group Alpha Standings",
             players: [
-                { rank: 0, name: 'Cipher', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: 'libero', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: 'Thiago', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
                 { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
             ],
             matches: []
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         schedule: {
             title: "Event Schedule",
-            image: "https://pm1.aminoapps.com/8389/351a4299a369e89a7ba8f64418c9e578af6bab05r1-755-1068v2_hq.jpg",
+            image: "og-image.webp",
             content: `
                 <ul>
                     <li><b>Week 1: Registration</b> - Player registration and folder submission begins.</li>
@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         schedule: {
             title: "イベントスケジュール",
-            image: "https://pm1.aminoapps.com/8389/351a4299a369e89a7ba8f64418c9e578af6bab05r1-755-1068v2_hq.jpg",
+            image: "og-image.webp",
             content: `
                 <ul>
                     <li><b>1週目：登録</b> - プレイヤーの登録とフォルダの提出が開始されます。</li>
@@ -306,8 +306,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const uiText = {
         en: {
-            pageTitle: "MMSF3 Grand Tournament 2025",
-            mainTitle: "MMSF3 Grand Tournament 2025",
+            pageTitle: "MMSF3 Grand Tournament 2026",
+            mainTitle: "MMSF3 Grand Tournament 2026",
             navAbout: "About",
             navRegistration: "Registration",
             navSchedule: "Schedule",
@@ -318,8 +318,8 @@ document.addEventListener('DOMContentLoaded', () => {
             footerText: "This website is for demonstration purposes only. Mega Man Star Force is a property of Capcom."
         },
         jp: {
-            pageTitle: "流星のロックマン3 グランドトーナメント 2025",
-            mainTitle: "流星のロックマン3 グランドトーナメント 2025",
+            pageTitle: "流星のロックマン3 グランドトーナメント 2026",
+            mainTitle: "流星のロックマン3 グランドトーナメント 2026",
             navAbout: "概要",
             navRegistration: "登録",
             navSchedule: "スケジュール",
