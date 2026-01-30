@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>To ensure competitive integrity, all participants must adhere to the official rules established by Cipher.</p>
                 <ul>
                     <li><b>Game Version:</b> All players must use an unmodified or modified version of Mega Man Star Force 3: Black Ace or Red Joker.</li>
-                    <li><b>Folder Rules:</b> Each player's Folder must contain exactly 30 Battle Cards. Only one Giga Card is permitted per folder.</li>
+                    <li><b>Folder Rules:</b> Each player's Folder must contain exactly 30 Battle Cards.</li>
                     <li><b>Noise Forms:</b> All Noise Change forms are permitted. Use of Finalized forms (Black Ace / Red Joker) is allowed only if the Noise gauge is filled to 200% through normal gameplay.</li>
                     <li><b>BrotherBand:</b> Players must form a real-life BrotherBand connection or fake BrotherBand for their match.</li>
                     <li><b>Banned Noise:</b> Rogue (Burai) Noise is not permitted.</li>
@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>競技の公正性を確保するため、すべての参加者はサイファーが定める公式ルールを遵守しなければなりません。</p>
                 <ul>
                     <li><b>ゲームバージョン：</b>すべてのプレイヤーは、改造されていない、または改造された『流星のロックマン3 ブラックエース』または『レッドジョーカー』を使用しなければなりません。</li>
-                    <li><b>フォルダールール：</b>各プレイヤーのフォルダには、正確に30枚のバトルカードが含まれていなければなりません。フォルダごとに許可されるギガカードは1枚のみです。</li>
+                    <li><b>フォルダールール：</b>各プレイヤーのフォルダには、正確に30枚のバトルカードが含まれていなければなりません。</li>
                     <li><b>ノイズ形態：</b>すべてのノイズチェンジ形態が許可されます。ファイナライズ形態（ブラックエース／レッドジョーカー）の使用は、通常のゲームプレイを通じてノイズゲージが200%に達した場合にのみ許可されます。</li>
                     <li><b>ブラザーバンド：</b>プレイヤーは試合のために現実世界でのブラザーバンド接続またはフェイクブラザーバンドを結ばなければなりません。</li>
                     <li><b>禁止ノイズ：</b>ブライノイズの使用は許可されません。</li>
