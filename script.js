@@ -4,21 +4,33 @@ document.addEventListener('DOMContentLoaded', () => {
         groups: [{
             name: "Group Alpha Standings",
             players: [
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
+                { rank: 0, name: 'Baguette', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'Ryuken', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'Cipher', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'WolZardFire!', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
             ],
-            matches: []
+            matches: [
+               /* { p1: 'Baguette', s1: 0, p2: 'Ryuken', s2: 0 },
+                { p1: 'Cipher', s1: 0, p2: 'WolZardFire!', s2: 0 },
+                { p1: 'Baguette', s1: 0, p2: 'Cipher', s2: 0 },
+                { p1: 'Ryuken', s1: 0, p2: 'WolZardFire!', s2: 0 },
+                { p1: 'Baguette', s1: 0, p2: 'WolZardFire!', s2: 0 },
+		{ p1: 'Ryuken', s1: 0, p2: 'Cipher', s2: 0 } */
+            ]
         }, {
             name: "Group Bravo Standings",
             players: [
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'Thiago', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'F-00', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'libero', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
                 { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
             ],
-            matches: []
+            matches: [
+               /* { p1: 'Thiago', s1: 0, p2: 'F-00', s2: 0 },
+                { p1: 'Thiago', s1: 0, p2: 'libero', s2: 0 },
+                { p1: 'F-00', s1: 0, p2: 'libero', s2: 0 } */
+                
+            ]
         }, {
             name: "Group Cipher Standings",
             players: [
@@ -76,21 +88,33 @@ document.addEventListener('DOMContentLoaded', () => {
         groups: [{
             name: "グループ・アルファ 順位表",
             players: [
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
+                { rank: 0, name: 'Baguette', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'Ryuken', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'Cipher', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'WolZardFire!', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
             ],
-            matches: []
+            matches: [
+               /* { p1: 'Baguette', s1: 0, p2: 'Ryuken', s2: 0 },
+                { p1: 'Cipher', s1: 0, p2: 'WolZardFire!', s2: 0 },
+                { p1: 'Baguette', s1: 0, p2: 'Cipher', s2: 0 },
+                { p1: 'Ryuken', s1: 0, p2: 'WolZardFire!', s2: 0 },
+                { p1: 'Baguette', s1: 0, p2: 'WolZardFire!', s2: 0 },
+		{ p1: 'Ryuken', s1: 0, p2: 'Cipher', s2: 0 } */
+            ]
         }, {
             name: "グループ・ブラボー 順位表",
             players: [
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
-                { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'Thiago', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'F-00', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
+                { rank: 0, name: 'libero', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 },
                 { rank: 0, name: '-', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
             ],
-            matches: []
+            matches: [
+               /* { p1: 'Thiago', s1: 0, p2: 'F-00', s2: 0 },
+                { p1: 'Thiago', s1: 0, p2: 'libero', s2: 0 },
+                { p1: 'F-00', s1: 0, p2: 'libero', s2: 0 } */
+                
+            ]
         }, {
             name: "グループ・サイファー 順位表",
             players: [
