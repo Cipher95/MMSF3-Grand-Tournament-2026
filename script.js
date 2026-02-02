@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li><b>Banned Giga Cards:</b> The Giga Cards Admins, Acid Arrest, Crimson Meteor, and Darkness Hole are not allowed.</li>
                     <li><b>Version Exclusive Giga Cards:</b> Black Ace Giga Cards may not be included in a Red Joker folder, and Red Joker Giga Cards may not be included in a Black Ace folder. Access via card roulette is permitted.</li>
                     <li><b>Disputes:</b> In case of a disconnect, Cipher will review match data to determine the outcome. All admin decisions are final.</li>
-                    <li><b>Penalty:</b> Any player found breaking these rules will be immediately disqualified.</li>
+                    <li><b>Penalty:</b> Any player found breaking these rules or using cheats that ruin the game will be immediately disqualified.</li>
                 </ul>
             `
         }
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li><b>禁止ギガカード：</b>ギガカード「アドミン」、「アシッドアレスト」、「クリムゾンメテオ」、「ダークネスホール」は禁止です。</li>
                     <li><b>バージョン限定ギガカード：</b>ブラックエースのギガカードをレッドジョーカーのフォルダに、またレッドジョーカーのギガカードをブラックエースのフォルダに入れることはできません。カードルーレットによる使用は許可されます。</li>
                     <li><b>紛争：</b>接続が切断された場合、サイファーが試合データを確認して結果を決定します。すべての管理者の決定は最終的なものです。</li>
-                    <li><b>ペナルティ：</b>これらのルールに違反したプレイヤーは、即座に失格となります。</li>
+                    <li><b>ペナルティ：</b>これらのルールに違反したり、ゲームを台無しにする不正行為を行ったプレイヤーは、即座に失格となります。</li>
                 </ul>
             `
         }
