@@ -542,8 +542,7 @@ footer {
     color: var(--primary-color);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 892px) {
     header {
         flex-direction: column;
         gap: 15px;
@@ -553,12 +552,18 @@ footer {
         text-align: center;
     }
     .title h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     nav a { padding: 15px 10px; font-size: 0.9rem;}
     .content-wrapper { flex-direction: column; align-items: center; }
     .content-image { width: 100%; max-width: 300px; }
-    .bracket-container { font-size: 0.8rem; }
+
+    .league-table, .match-results {
+        font-size: 0.85rem;
+    }
+    .league-table th, .league-table td {
+        padding: 8px 5px;
+    }
     .match-results li {
         padding: 8px 10px;
         font-size: 0.9rem;
@@ -567,55 +572,44 @@ footer {
         margin: 0 8px;
     }
 
-    /* --- NEW RESPONSIVE TABLE STYLES --- */
-    .league-table {
-        border: 0; /* Remove main table border */
+    .knockout-bracket {
+        padding: 10px 0;
+    }
+    
+    .knockout-bracket-inner {
+        min-width: 700px;
+        font-size: 0.75rem;
+    }
+    
+    .bracket-round {
+        min-width: 140px;
+    }
+    
+    .bracket-round-title {
+        font-size: 0.7rem;
+        padding: 8px 3px;
+    }
+    
+    .bracket-player {
+        padding: 8px 10px;
+        font-size: 0.75rem;
+    }
+    
+    .bracket-player-score {
+        padding: 2px 6px;
+        min-width: 20px;
+    }
+    
+    .bracket-champion-card {
+        padding: 15px 10px;
+    }
+    
+    .bracket-champion-icon {
+        font-size: 1.5rem;
+    }
+    
+    .bracket-champion-name {
         font-size: 0.9rem;
-    }
-    .league-table caption {
-        font-size: 1.1rem;
-    }
-    .league-table thead {
-        /* Hide the original table headers on mobile */
-        display: none;
-    }
-    .league-table tr {
-        /* Each row becomes a card */
-        display: block;
-        margin-bottom: 1rem;
-        border-radius: 8px;
-        border: 1px solid #444;
-        background-color: rgba(0, 170, 255, 0.05);
-        overflow: hidden;
-    }
-    .league-table td {
-        /* Stack table cells vertically */
-        display: block;
-        text-align: right; /* Align value to the right */
-        padding: 10px;
-        border-bottom: 1px solid #2a3a49;
-        position: relative;
-    }
-    .league-table td:last-child {
-        border-bottom: 0;
-    }
-    .league-table td::before {
-        /* Inject the header as a label */
-        content: attr(data-label);
-        float: left; /* Align label to the left */
-        font-weight: bold;
-        color: var(--secondary-color);
-    }
-    .league-table td:nth-of-type(2) {
-        /* Style the Player name as the card header */
-        background-color: rgba(0, 170, 255, 0.1);
-        font-size: 1.2em;
-        font-weight: bold;
-        color: var(--accent-color);
-    }
-    .league-table td:nth-of-type(2)::before {
-        /* Hide the "Player:" label since it's obvious */
-        display: none;
     }
 }
 
