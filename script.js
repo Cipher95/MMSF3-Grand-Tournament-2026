@@ -425,14 +425,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const playerRows = group.players.map(p => `
             <tr>
-                <td>${p.rank}</td>
-                <td>${p.name}</td>
-                <td>${p.mp}</td>
-                <td>${p.w}</td>
-                <td>${p.d}</td>
-                <td>${p.l}</td>
-                <td>${p.diff > 0 ? '+' : ''}${p.diff}</td>
-                <td><b>${p.pts}</b></td>
+                <td data-label="${headers[0]}">${p.rank}</td>
+                <td data-label="${headers[1]}">${p.name}</td>
+                <td data-label="${headers[2]}">${p.mp}</td>
+                <td data-label="${headers[3]}">${p.w}</td>
+                <td data-label="${headers[4]}">${p.d}</td>
+                <td data-label="${headers[5]}">${p.l}</td>
+                <td data-label="${headers[6]}">${p.diff}</td>
+                <td data-label="${headers[7]}">${p.pts}</td>
             </tr>
         `).join('');
 
